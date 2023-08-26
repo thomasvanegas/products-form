@@ -14,6 +14,8 @@ window.onload = () => {
 
         console.log("Prueba de Validación mediante PristineJS Iniciada");
 
+        let validation = pristine_obj.validate();
+
     }
 
 }
