@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.login {
+.frm_crear_producto {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
