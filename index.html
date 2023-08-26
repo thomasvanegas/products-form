@@ -8,9 +8,33 @@
 
     <!-- IMPORTACION DE ESTILOS CSS -->
     <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- IMPORTANDO BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 
 <body>
+
+    <form action="" class="login">	
+
+        <label for="nombre_producto">Nombre del Producto:</label>
+        <input type="text" id="nombre_producto" placeholder="Nombre del Producto" class="form control" name=""><br>
+
+        <label for="precio_producto">Precio del Producto</label>
+        <input type="text" id="precio_producto" placeholder="Precio del Producto" class="form control" name=""><br>
+
+        <label for="email_proveedor">Email del Proveedor:</label>
+        <input type="text" id="email_proveedor" placeholder="E-mail del Proveedor" class="form control"><br>
+
+        <input type="button" value="Crear Producto" class="btn btn-primary" id="btn_crear_producto">
+
+        <br>
+
+        <input type="button" value="Validar Existencia Producto" class="btn btn-primary" id="btn_validar_existencia_producto">
+
+    </form>
+
+    <select name="" id="productos"></select>
 
 
     <!-- IMPORTACION DE ARCHIVO JS -->
